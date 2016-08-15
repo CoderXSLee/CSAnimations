@@ -1,5 +1,5 @@
 //
-//  SCAnimationViewController.h
+//  CSAnimationViewController.h
 //  ChiefSteward
 //
 //  Created by Apple on 16/4/26.
@@ -11,7 +11,7 @@
 /** 动画执行完成的回调block */
 typedef void (^Completion )(void);
 
-@interface SCAnimationViewController : UIViewController
+@interface CSAnimationViewController : UIViewController
 
 @property (nonatomic, strong) NSMutableArray <CALayer *> *animationLayers;
 

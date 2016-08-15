@@ -13,8 +13,8 @@
 		AA00F5591D61DC9F00FBB328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA00F5571D61DC9F00FBB328 /* Main.storyboard */; };
 		AA00F55B1D61DC9F00FBB328 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA00F55A1D61DC9F00FBB328 /* Assets.xcassets */; };
 		AA00F55E1D61DC9F00FBB328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA00F55C1D61DC9F00FBB328 /* LaunchScreen.storyboard */; };
-		AA00F56C1D61DCDB00FBB328 /* CSAnimationTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA00F5671D61DCDB00FBB328 /* CSAnimationTabBarController.m */; };
-		AA00F56E1D61DCDB00FBB328 /* SCAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA00F56B1D61DCDB00FBB328 /* SCAnimationViewController.m */; };
+		AA00F56E1D61DCDB00FBB328 /* CSAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA00F56B1D61DCDB00FBB328 /* CSAnimationViewController.m */; };
+		AA00F5711D61E7C800FBB328 /* CSAnimationTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA00F5701D61E7C800FBB328 /* CSAnimationTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		AA00F55A1D61DC9F00FBB328 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA00F55D1D61DC9F00FBB328 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA00F55F1D61DC9F00FBB328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA00F5661D61DCDB00FBB328 /* CSAnimationTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAnimationTabBarController.h; sourceTree = "<group>"; };
-		AA00F5671D61DCDB00FBB328 /* CSAnimationTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAnimationTabBarController.m; sourceTree = "<group>"; };
-		AA00F56A1D61DCDB00FBB328 /* SCAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAnimationViewController.h; sourceTree = "<group>"; };
-		AA00F56B1D61DCDB00FBB328 /* SCAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAnimationViewController.m; sourceTree = "<group>"; };
+		AA00F56A1D61DCDB00FBB328 /* CSAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAnimationViewController.h; sourceTree = "<group>"; };
+		AA00F56B1D61DCDB00FBB328 /* CSAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAnimationViewController.m; sourceTree = "<group>"; };
+		AA00F56F1D61E7C800FBB328 /* CSAnimationTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAnimationTabBarController.h; sourceTree = "<group>"; };
+		AA00F5701D61E7C800FBB328 /* CSAnimationTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAnimationTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +89,10 @@
 		AA00F5651D61DCDB00FBB328 /* CSAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				AA00F56A1D61DCDB00FBB328 /* SCAnimationViewController.h */,
-				AA00F56B1D61DCDB00FBB328 /* SCAnimationViewController.m */,
-				AA00F5661D61DCDB00FBB328 /* CSAnimationTabBarController.h */,
-				AA00F5671D61DCDB00FBB328 /* CSAnimationTabBarController.m */,
+				AA00F56A1D61DCDB00FBB328 /* CSAnimationViewController.h */,
+				AA00F56B1D61DCDB00FBB328 /* CSAnimationViewController.m */,
+				AA00F56F1D61E7C800FBB328 /* CSAnimationTabBarController.h */,
+				AA00F5701D61E7C800FBB328 /* CSAnimationTabBarController.m */,
 			);
 			path = CSAnimations;
 			sourceTree = SOURCE_ROOT;
@@ -169,8 +169,8 @@
 			files = (
 				AA00F5561D61DC9F00FBB328 /* ViewController.m in Sources */,
 				AA00F5531D61DC9F00FBB328 /* AppDelegate.m in Sources */,
-				AA00F56E1D61DCDB00FBB328 /* SCAnimationViewController.m in Sources */,
-				AA00F56C1D61DCDB00FBB328 /* CSAnimationTabBarController.m in Sources */,
+				AA00F5711D61E7C800FBB328 /* CSAnimationTabBarController.m in Sources */,
+				AA00F56E1D61DCDB00FBB328 /* CSAnimationViewController.m in Sources */,
 				AA00F5501D61DC9F00FBB328 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

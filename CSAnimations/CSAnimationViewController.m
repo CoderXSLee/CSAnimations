@@ -1,21 +1,21 @@
 //
-//  SCAnimationViewController.m
+//  CSAnimationViewController.m
 //  ChiefSteward
 //
 //  Created by Apple on 16/4/26.
 //  Copyright © 2016年 李雪松. All rights reserved.
 //
 
-#import "SCAnimationViewController.h"
+#import "CSAnimationViewController.h"
 
-@interface SCAnimationViewController ()<UIScrollViewDelegate>
+@interface CSAnimationViewController ()<UIScrollViewDelegate>
 {
     UIView *_tempView; // 动画执行中需要使用的View // 在动画结束后释放
     Completion _completion; // 动画执行完毕后的回调  // 在动画结束后清除
 }
 @end
 
-@implementation SCAnimationViewController
+@implementation CSAnimationViewController
 
 #pragma mark - Life Cycle
 

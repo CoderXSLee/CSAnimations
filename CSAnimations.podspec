@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.source_files = 'CSAnimations/*.{h,m}'
   s.public_header_files = 'CSAnimations/*.{h}'
 
-  s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
+  s.frameworks = 'UIKit', 'CoreGraphics'
+# s.dependency '', '~> *.*.*'
 
 end
