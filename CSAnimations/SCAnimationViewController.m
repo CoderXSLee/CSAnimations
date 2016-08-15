@@ -85,7 +85,7 @@
         _animationBigLayers = [NSMutableArray array];
     }
 
-    CGPoint p3 = CGPointMake(imageView.superview.width - 40, imageView.superview.layer.bounds.size.height - 40);
+    CGPoint p3 = CGPointMake(imageView.superview.frame.size.width - 40, imageView.superview.layer.bounds.size.height - 40);
     [self animationWithImageView:imageView Point:p3 forkey:@"BigShopCarAnimation"];
 }
 

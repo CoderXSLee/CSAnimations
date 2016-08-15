@@ -6,12 +6,12 @@
 //  Copyright © 2016年 李雪松. All rights reserved.
 //
 
-#import "CSViewController.h"
+#import <UIKit/UIKit.h>
 
 /** 动画执行完成的回调block */
 typedef void (^Completion )(void);
 
-@interface SCAnimationViewController : CSViewController
+@interface SCAnimationViewController : UIViewController
 
 @property (nonatomic, strong) NSMutableArray <CALayer *> *animationLayers;
 
