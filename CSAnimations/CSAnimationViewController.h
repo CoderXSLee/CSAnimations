@@ -17,6 +17,7 @@ typedef void (^Completion )(void);
 
 @property (nonatomic, strong) NSMutableArray <CALayer *> *animationBigLayers;
 
++ (instancetype)sharedInstance;
 
 // MARK: 商品添加到购物车动画
 - (void)addProductsAnimationWithImageView:(UIImageView *)imageView toX:(CGFloat)toX completion:(Completion)completion NS_AVAILABLE_IOS(8_0);

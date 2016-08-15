@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'CSAnimations'
   s.summary      = 'Animations for iOS.'
-  s.version      = '1.0.0'
+  s.version      = '1.0.2'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'CoderXSLee' => '1363852560@qq.com' }
 # s.social_media_url = 'http://blog.ibireme.com'
